@@ -18,7 +18,7 @@ find lockDialogGroup
 
 ## Connecting to another linux machine with x2x
 
-`ssh -X [computer name]@[ip gateway] x2x -east -to :0.0`
+`ssh -X [computer name]@[ip gateway] -l [user name] x2x -east -to :0.0` 
 
 ## Editing unity animation with Dconf (ubuntu 16.04)
 
