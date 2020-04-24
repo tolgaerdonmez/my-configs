@@ -29,6 +29,15 @@ minimize-speed-threshold 0 - 100
 minimize-slow-duration
 ```
 
+## Dconf configs
+
++ org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
++ org.gnome.shell.extensions.dash-to-dock running-indicator-style 'SEGMENTED'
++ org.gnome.shell.extensions.dash-to-dock middle-click-action 'previews'
++ org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
++ org.gnome.shell.extensions.dash-to-dock animate-show-apps false
++ org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-color '#e95420'
+
 ## Increasing File Monitoring Amount of System Files
 
 Modify the number of system monitoring files
