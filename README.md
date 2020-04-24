@@ -95,3 +95,9 @@ Side-top button | button 9
 Thumb button | Ctrl+Alt+Tab
 
 >[ArchWiki URL](https://wiki.archlinux.org/index.php/Logitech_MX_Master)
+
+## Removing Mounted devices from ubuntu dock (tested in Ubuntu 20.04)
+
+```
+gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
+```
